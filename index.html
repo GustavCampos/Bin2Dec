@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bin2Dec</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <style>
+        @import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+    </style>
+</head>
+<body class="hero is-light is-fullheight">
+    <div class="container">
+        <main class="columns is-centered">
+            <section class="column is-narrow">
+                <div class="container is-fluid">
+                    <div class="box mt-6">
+                        <div class="block">
+                            <h1 class="title is-2 has-text-dark"><strong>Binary to decimal</strong></h1>
+                        </div>
+                        <div>
+                            <input class="input block" type="text" placeholder="Insert a binary" name="binary-input" id="binary-input" maxlength="32">
+                            <div class="has-text-centered">
+                                <span class="" id="binary-result-span"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="column is-narrow">
+                <div class="container is-fluid">
+                    <div class="box mt-6">
+                        <div class="block">
+                            <h1 class="title is-2 has-text-dark"><strong>Decimal to binary</strong></h1>
+                        </div>
+                        <div>
+                            <input class="input block" type="text" placeholder="Insert a decimal" name="decimal-input" id="decimal-input" maxlength="32">
+                            <div class="has-text-centered">
+                                <span class="" id="decimal-result-span"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="custom-footer">
+            <div class="content has-text-centered">
+                <p>Maded by Gustavo Campos</p>
+            </div>
+        </footer>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
